@@ -8,9 +8,10 @@
 <br><br>
 > :construction: Projeto em construção :construction:
 <br><br><br>
+
 <h3>Sumário</h3>
 <p>
-  - <a href="main#-recursos-">Recursos</a>
+  [Recursos](#recursos)
   <br>  
   - Uso
   <br>
@@ -18,7 +19,7 @@
 </p>
 <br><br><br>
 
-<h3 id="Recursos"> Recursos </h3>
+<h3> Recursos </h3>
 <br>
 <p> Design Elegante: Meowisa possui um design elegante e amigável ao usuário para proporcionar uma excelente experiência de compra.
   <br>
