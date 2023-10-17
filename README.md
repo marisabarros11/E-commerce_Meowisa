@@ -35,3 +35,11 @@ Aceitamos contribuições para melhorar o Meowisa. Se você deseja contribuir, s
 4. Teste suas alterações minuciosamente.<br>
 5. Envie uma solicitação pull, descrevendo as alterações que você fez e por que são valiosas.<br>
 </p>
+
+<h3>Tecnologias Utilizadas</h3>
+
+<p>
+- JavaScript
+- Html
+- Css
+</p>
