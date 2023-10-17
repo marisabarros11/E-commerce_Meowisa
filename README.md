@@ -39,7 +39,7 @@ Aceitamos contribuições para melhorar o Meowisa. Se você deseja contribuir, s
 <h3>Tecnologias Utilizadas</h3>
 
 <p>
-- JavaScript
-- Html
-- Css
+- JavaScript<br>
+- Html<br>
+- Css<br>
 </p>
