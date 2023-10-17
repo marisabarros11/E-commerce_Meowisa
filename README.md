@@ -19,8 +19,7 @@ A plataforma foi criada para estudos então ainda está em construção e aperfe
 <h3> 🚩Uso</h3>
 
 <p>
-1. Visite Meowisa usando seu navegador da web.<br>
-2. Explore nossa ampla gama de produtos para gatos.<br>
+1. Visite <a href="https://marisabarros11.github.io/E-commerce_Meowisa/">Meowisa</a> usando seu navegador da web.<br>
 3. Clique em um produto para ver os detalhes e fazer uma compra.<br>
 4. Preencha as informações necessárias e prossiga com o pagamento.<br>
 </p>
