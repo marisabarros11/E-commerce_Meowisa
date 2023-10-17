@@ -1,0 +1,540 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Inicio estilo menu*/
+nav {
+    background-color: #111;
+    color: white;
+    padding: 8px 30px;
+}
+
+.navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.bemvindxs {
+    font-size: 40px;
+    font-family: 'Rowdies', sans-serif;
+    font-weight: 700;
+    border-bottom: 2px solid green;
+}
+
+.navBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItens {
+    margin-right: 50px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Rowdies', sans-serif;
+    color: lightgray;
+    font-weight: 400;
+}
+
+.menuItens:hover {
+    color: #FF00FF;
+}
+
+.slider {
+    background-image: url('./bg.png');
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+    overflow: hidden;
+}
+
+.sliderEnvelope {
+    display: flex;
+    width: 500vw;
+    transition: all 1.5s ease-in-out;
+}
+
+.sliderItens {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sliderBg {
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.sliderImg {
+    z-index: 1;
+}
+
+.tituloSlider{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    font-family: 'Rowdies', sans-serif;
+    z-index: 1;
+}
+
+.tituloSlider span{
+    font-size: 35px;
+}
+
+.precoSlider {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    border: 1px solid gray;
+    font-family: 'Rowdies', sans-serif;
+    z-index: 1;
+}
+
+.botaoCompra {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    border: 1px solid gray;
+    background-color: black;
+    z-index: 1;
+    cursor: pointer;
+    padding: 5px;
+    font-family: 'Rowdies', sans-serif;
+}
+
+.botaoCompra:hover {
+    background-color: white;
+    color: black;
+}
+
+.sliderItens:nth-child(1) .sliderBg {
+    background-color: #7eb595;
+}
+
+.sliderItens:nth-child(2) .sliderBg {
+    background-color: rgb(158, 124, 193);
+}
+
+.sliderItens:nth-child(3) .sliderBg {
+    background-color: #7eb595;
+}
+
+.sliderItens:nth-child(4) .sliderBg {
+    background-color: rgb(132, 170, 239);
+}
+
+.sliderItens:nth-child(1) .precoSlider,
+.sliderItens:nth-child(2) .precoSlider,
+.sliderItens:nth-child(3) .precoSlider,
+.sliderItens:nth-child(4) .precoSlider{
+    color: white;
+}
+/* Fim estilo menu*/
+
+/* Inicio estilo recursos de compra, entrega e devolução*/
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.featureIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.tituloFeature {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    font-family: 'Rowdies', sans-serif;
+}
+
+.descFeature {
+    color: gray;
+    width: 150px;
+    height: 100px;
+}
+/* Fim estilo recursos de compra, entrega e devolução*/
+
+/* Inicio estilo pagamento e produtos*/
+.produtos{
+    height: 100vh;
+    background-color: #E1BAD7;
+    position: relative;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.pagamento {
+    width: 500px;
+    height: 675px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 32px 6px rgba(0, 0, 0, 0.87);
+    box-shadow: 0px 0px 32px 6px rgba(0, 0, 0, 0.87);
+}
+
+.pagTitulo {
+    font-size: 20px;
+    color: rgb(80, 79, 79);
+    padding-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.pagInput {
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.pagInput::placeholder {
+    color: rgb(182, 181, 181);
+}
+
+.cardIcons {
+    display: flex;
+}
+
+.cardIcons img {
+    width: 60%;
+    height: 100%;
+}
+
+.cardInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sm {
+    width: 41.5px;
+}
+
+.cupom {
+    display: flex;
+    margin-top: 20px;
+}
+
+.campoCupom {
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 70px;
+    padding: 5px;
+}
+
+.cupom label {
+    margin-right: 20px;
+    background-color: #8bd1a8;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.pagBtn {
+    position: absolute;
+    height: 40px;
+    bottom: -40px;
+    width: 100%;
+    left: 0;
+    -webkit-box-shadow: 2px 5px 16px 0px #0B325E, 2px 18px 38px 17px rgba(27, 255, 15, 0.2);
+    box-shadow: 2px 5px 16px 0px #0B325E, 2px 18px 38px 17px rgba(27, 255, 15, 0.2);
+    background-color: #369e62;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.fechar {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: rgb(186, 182, 182);
+    color: white;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.produtoImg {
+    position: absolute;
+    width: 40%;
+    top: 10%; 
+    left: 10%;
+}
+
+.produtoDetalhes {
+    position: absolute;
+    top: 12%;
+    right: 0;
+    width: 40%;
+    padding: 50px;
+}
+
+.produtoTitulo {
+    font-size: 80px;
+    font-weight: 800;
+    font-family: 'Rowdies', sans-serif;
+}
+
+.produtoPreco{
+    font-family: 'Rowdies', sans-serif;
+}
+
+.produtoDesc {
+    font-style: 24px;
+    color: gray;
+    margin: 10px 0 10px;
+}
+
+.cores,
+.tamanhos {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.cor {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: black;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.cor:last-child {
+    background-color: #FE979A;
+}
+
+.tamanho {
+    padding: 5px 20px;
+    border: 1px solid black;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: white;
+    font-family: 'Rowdies', sans-serif;
+}
+
+.produtoBtn {
+    float: right;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: 'Rowdies', sans-serif;
+}
+
+.produtoBtn:hover {
+    background-color: white;
+    color: black;
+}
+/* Fim estilo pagamento e produtos*/
+
+/* Inicio estilo galeria*/
+.galeria {
+    padding: 50px;
+    display: flex;
+}
+
+.galeriaItens {
+    flex: 1;
+    padding: 50px;
+}
+
+.galeriaImg {
+    width: 100%;
+}
+
+.galeriaTitulo {
+    font-size: 30px;
+    padding: 15px 0 15px;
+    font-family: 'Rowdies', sans-serif;
+}
+/* Fim estilo galeria*/
+
+/* Inicio estilo nova coleção*/
+.novaVersao {
+    display: flex;
+    height: 650px;
+}
+
+.nvItens {
+    flex: 1;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    font-size: 30px;
+    font-family: 'Rowdies', sans-serif;
+}
+
+.nvImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nvTitulo {
+    font-size: 30px;
+}
+
+.nvBtn {
+    margin-top: 10px;
+    padding: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Rowdies', sans-serif;
+}
+/* Fim estilo nova coleção*/
+
+/*Inico estilo footer*/
+footer {
+    display: flex;
+}
+
+.footerEsquerdo {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.fMenuTitulo {
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-family: 'Rowdies', sans-serif;
+}
+
+.fList {
+    padding: 0;
+}
+
+.fListItem {
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footerDireita {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fInput {
+    padding: 5px;
+}
+
+.fIcons {
+    display: flex;
+}
+
+.fIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.fButton {
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+.copyright {
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Rowdies', sans-serif;
+    color: #FF00FF;
+}
+/*Fim estilo footer*/

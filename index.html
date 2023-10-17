@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Meowisa</title>
+
+</head>
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItens">
+                <img src="./img/Meowisa.png" alt="Logo com o nome Meowisa" id="logo">
+            </div>
+            <div class="navItens">
+                <span class="bemvindxs">Para quem amo gatxs!</span>
+            </div>
+            <div class="navItens">
+                <img src="./img/gato.png" alt="Imagem cabeça de gato rosa" id="gato">
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItens">Cama</h3>
+            <h3 class="menuItens">Brinquedos</h3>
+            <h3 class="menuItens">Transporte</h3>
+            <h3 class="menuItens">Humanos</h3>
+        </div>
+    </nav><!--Menu-->
+
+    <div class="slider">
+        <div class="sliderEnvelope">
+            <div class="sliderItens">
+                <img src="./img/cama.png" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="tituloSlider">CAMINHA</br><span>Também em rosa</span></h1>
+                <h2 class="precoSlider">R$100</h2>
+                <a href="#produtos">
+                    <button class="botaoCompra">COMPRAR</button>
+                </a>
+            </div>
+            <div class="sliderItens">
+                <img src="./img/brinquedo.png" width="400px" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="tituloSlider">BOLA INTERATIVA</br><span>Também em azul</span></h1>
+                <h2 class="precoSlider">R$120</h2>
+                <a href="#produtos">
+                    <button class="botaoCompra">COMPRAR</button>
+                </a>
+            </div>
+            <div class="sliderItens">
+                <img src="./img/bag.png" width="700px" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="tituloSlider">BAG</br><span>Também em rosa</span></h1>
+                <h2 class="precoSlider">R$150</h2>
+                <a href="#produtos">
+                    <button class="botaoCompra">COMPRAR</button>
+                </a>
+            </div>
+            <div class="sliderItens">
+                <img src="./img/humano.png" width="600px" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="tituloSlider">EDREDOM</br><span>Também em rosa</span></h1>
+                <h2 class="precoSlider">R$159</h2>
+                <a href="#produtos">
+                    <button class="botaoCompra">COMPRAR</button>
+                </a>
+            </div>
+        </div>
+    </div><!--Informações do Slider-->
+
+    <div class="features">
+        <div class="feature">
+            <img src="./img/shipping.png" alt="Imagem de caminhão de entrega" class="featureIcon">
+            <span class="tituloFeature"> ENTREGA GRÁTIS</span>
+            <span class="descFeature"> Frete gratuito para todo o mundo em todos os pedidos.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/return.png" alt="Imagem de pacote de entrega para com simbolo de retorno">
+            <span class="tituloFeature">30 DIAS PARA DEVOLUÇÃO</span>
+            <span class="descFeature">Devolução e reembolso fácil em 14 dias.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/gift.png" alt="Imagem de cartão com fita de presente ao redor">
+            <span class="tituloFeature">CARTÃO PRESENTE</span>
+            <span class="descFeature">Compre com cartões-presente ou cupons</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/contact.png" alt="Imagem de avião como se fosse uma tromadura de papel">
+            <span class="tituloFeature">CONTATO</span>
+            <span class="descFeature">Entre em contato via e-mail ou via suporte</span>
+        </div>
+    </div><!--Opções de entrega, devolução, pagamento e contato-->
+
+    <div class="produtos" id="produtos">
+        <img src="./img/cama.png" alt="" class="produtoImg">
+        <div class="produtoDetalhes">
+            <h1 class="produtoTitulo">Caminha</h1>
+            <h2 class="produtoPreco">R$ 100</h2>
+            <p class="produtoDesc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti enim quibusdam officia neque, explicabo blanditiis, nulla ad saepe voluptas voluptatem unde aliquid quod nesciunt ipsam officiis reprehenderit, distinctio necessitatibus sequi.</p>
+            <div class="cores">
+                <div class="cor"></div>
+                <div class="cor"></div>
+            </div>
+            <div class="tamanhos">
+                <div class="tamanho">P</div>
+                <div class="tamanho">M</div>
+                <div class="tamanho">G</div>
+            </div>
+            <button class="produtoBtn">Compre</button>
+        </div><!--Informações do produto-->
+
+        <div class="pagamento" style="display: none">
+            <h1 class="pagTitulo">Informações Pessoais</h1>
+            <form id="checkout-form">
+                <label for="nome">Nome e Sobrenome</label>
+                <input type="text" id="nome" name="nome" placeholder="Beatriz Barbosa" class="pagInput">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@example.com" class="pagInput">
+                <label for="celular">Celular</label>
+                <input type="text" id="celular" name="celular" placeholder="(11) 995455897" class="pagInput">
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco" name="endereco" placeholder="Rua dos Gatos" class="pagInput">
+            
+                <h1 class="pagTitulo">Informações do Cartão</h1>
+                <div class="cardIcons">
+                    <label for="cartao"></label>
+                    <img src="./img/tipos-de-bandeiras.png" alt="" width="40" class="cardIcon">
+                </div>
+                <input type="text" id="numeroCartao" name="numeroCartao" class="pagInput" placeholder="Número do Cartão">
+                <div class="cardInfo">
+                    <input type="text" id="mesValidade" name="mesValidade" placeholder="MM" class="pagInput sm">
+                    <input type="text" id="anoValidade" name="anoValidade" placeholder="AAAA" class="pagInput sm">
+                    <input type="text" id="cvv" name="cvv" placeholder="CVV" class="pagInput sm">
+                </div>
+                <div class="cupom">
+                    <label for="nome">Cupom</label>
+                    <input type="text" id="cupom" name="cupom" placeholder="MARI500" class="campoCupom">
+                </div>
+                <button class="pagBtn" id="finalizarCompra">Concluir</button>
+            </form>
+            <span class="fechar">X</span>
+        </div><!--Modal Pagamento-->
+
+        <div class="modal" id="success-modal">
+            <div class="modal-content">
+                <span class="close-modal" id="close-modal">&times;</span>
+                <h2>Sucesso!</h2>
+                <p>Um email com informações do pedido foi enviado.</p>
+            </div>
+        </div><!--Modal sucesso da compra-->
+    </div><!--Informações do produto e pagamento-->
+
+    <div class="galeria">
+        <div class="galeriaItens">
+            <h1 class="galeriaTitulo">Tudo pro seu pet!</h1>
+            <img src="./img/gato-piano.jpg"
+                alt="" class="galeriaImg">
+        </div>
+        <div class="galeriaItens">
+            <img src="./img/gato_sorvete.jpg"
+                alt="" class="galeriaImg">
+            <h1 class="galeriaTitulo">O donx da casa vai amar!</h1>
+        </div>
+        <div class="galeriaItens">
+            <h1 class="galeriaTitulo">Meowwww!</h1>
+            <img src="./img/gato-petisco.jpg"
+                alt="" class="galeriaImg">
+        </div>
+    </div><!--Galeria de fotos-->
+
+    <div class="novaVersao">
+        <div class="nvItens">
+            <img src="./img/gato-edredom.jpg"
+                alt="" class="nvImg">
+        </div>
+        <div class="nvItens">
+            <h3 class="nvTituloPq">NOVIDADES DE INVERNO</h3>
+            <h1 class="nvTitulo">Nova Coleção</h1>
+            <a href="#nav">
+                <button class="nvBtn">Escolha seu  estilo!</button>
+            </a>
+        </div>
+        <div class="nvItens">
+            <img src="./img/gato-rede.jpg"
+                alt="" class="nvImg">
+        </div>
+    </div><!--Nova Coleção-->
+
+    <footer>
+        <div class="footerEsquerdo">
+            <div class="footerMenu">
+                <h1 class="fMenuTitulo">Sobre nos</h1>
+                <ul class="fList">
+                    <li class="fListItem">Empresa</li>
+                    <li class="fListItem">Contato</li>
+                    <li class="fListItem">Trabalhe Conosco</li>
+                    <li class="fListItem">Lojas</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitulo">Links Úteis</h1>
+                <ul class="fList">
+                    <li class="fListItem">Suporte</li>
+                    <li class="fListItem">Reembolso</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitulo">Produtos</h1>
+                <ul class="fList">
+                    <li class="fListItem">Cama</li>
+                    <li class="fListItem">Brinquedos</li>
+                    <li class="fListItem">Transporte</li>
+                    <li class="fListItem">Humanos</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerDireita">
+            <div class="fDireitaMenu">
+                <h1 class="fMenuTitulo">Assine nossa newsletter</h1>
+                <div class="fEmail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Assinar!</button>
+                </div>
+            </div>
+            <div class="fDireitaMenu">
+                <h1 class="fMenuTitulo">Siga nossas redes</h1>
+                <div class="fIcons">
+                    <img src="./img/facebook.png" alt="" class="fIcon">
+                    <img src="./img/twitter.png" alt="" class="fIcon">
+                    <img src="./img/instagram.png" alt="" class="fIcon">
+                    <img src="./img/whatsapp.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="fDireitaMenu">
+                <span class="copyright">Criado por Marisa Barros 2023.</span>
+            </div>
+        </div>
+    </footer><!--Footer-->
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
