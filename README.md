@@ -9,10 +9,11 @@
 > :construction: Projeto em construção :construction:
 
 <h3> Recursos </h3>
-<p> Design Elegante: Meowisa possui um design elegante e amigável ao usuário para proporcionar uma excelente experiência de compra.
-  Ampla Gama de Produtos: Oferecemos uma variedade de produtos para gatos, incluindo camas para gatos, brinquedos interativos e muito mais.
-  Responsivo: Meowisa é totalmente responsivo, tornando-o acessível tanto em dispositivos desktop quanto móveis.
-  Pagamento: existe um modal com validações para simular a experiencia de compre, mas ainda não temos conexão com o back-end.
+<p> 
+   1.Design Elegante: Meowisa possui um design elegante e amigável ao usuário para proporcionar uma excelente experiência de compra.
+   2.Ampla Gama de Produtos: Oferecemos uma variedade de produtos para gatos, incluindo camas para gatos, brinquedos interativos e muito mais.
+   3.Responsivo: Meowisa é totalmente responsivo, tornando-o acessível tanto em dispositivos desktop quanto móveis.
+   4.Pagamento: existe um modal com validações para simular a experiencia de compre, mas ainda não temos conexão com o back-end.
   <br>
 </p>
 
@@ -20,8 +21,11 @@
 
 <p>
   1. Visite Meowisa usando seu navegador da web.
+  
   2. Explore nossa ampla gama de produtos para gatos.
-  3. Clique em um produto para ver os detalhes e fazer uma compra.
+     
+  4. Clique em um produto para ver os detalhes e fazer uma compra.
+     
   4.Preencha as informações necessárias e prossiga com o pagamento.
 </p>
 
