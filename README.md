@@ -10,7 +10,7 @@
 <br><br><br>
 <h3>Sumário</h3>
 <p>
-  - <a href="#Recursos">Recursos</a>
+  - <a href="main#-recursos-">Recursos</a>
   <br>  
   - Uso
   <br>
