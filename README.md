@@ -7,17 +7,7 @@
 </p>
 <br><br>
 > :construction: Projeto em construção :construction:
-<br><br><br>
 
-<h3>Sumário</h3>
-<p>
-  [Recursos](-#recursos-)
-  <br>  
-  - Uso
-  <br>
-  - Contribuições
-</p>
-<br><br><br>
 
 <h3> Recursos </h3>
 <br>
