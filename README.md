@@ -1,38 +1,38 @@
 <h1 align="center"> Meowisa </h1>
 
 <p>
-  Meowisa é uma plataforma web dedicada a oferecer os melhores produtos para amantes de gatos. De camas aconchegantes para gatos a brinquedos interativos, temos tudo o que seu amigo felino precisa para ser feliz. 
+Meowisa é uma plataforma web dedicada a oferecer os melhores produtos para amantes de gatos. De camas aconchegantes para gatos a brinquedos interativos, temos tudo o que seu amigo felino precisa para ser feliz. 
 
-  A plataforma foi criada para estudos então ainda está em construção e aperfeiçoamento. O site possui recursos responsivos, mas em breve teremos atualizações no menu. Também teremos em breve atualizações no modal de pagamento.
+A plataforma foi criada para estudos então ainda está em construção e aperfeiçoamento. O site possui recursos responsivos, mas em breve teremos atualizações no menu. Também teremos em breve atualizações no modal de pagamento.
 </p>
 
 > :construction: Projeto em construção :construction:
 
 <h3> Recursos </h3>
 <p> 
-   1.Design Elegante: Meowisa possui um design elegante e amigável ao usuário para proporcionar uma excelente experiência de compra.
-   2.Ampla Gama de Produtos: Oferecemos uma variedade de produtos para gatos, incluindo camas para gatos, brinquedos interativos e muito mais.
-   3.Responsivo: Meowisa é totalmente responsivo, tornando-o acessível tanto em dispositivos desktop quanto móveis.
-   4.Pagamento: existe um modal com validações para simular a experiencia de compre, mas ainda não temos conexão com o back-end.
-  <br>
+1.Design Elegante: Meowisa possui um design elegante e amigável ao usuário para proporcionar uma excelente experiência de compra.
+2.Ampla Gama de Produtos: Oferecemos uma variedade de produtos para gatos, incluindo camas para gatos, brinquedos interativos e muito mais.
+3.Responsivo: Meowisa é totalmente responsivo, tornando-o acessível tanto em dispositivos desktop quanto móveis.
+4.Pagamento: existe um modal com validações para simular a experiencia de compre, mas ainda não temos conexão com o back-end.
 </p>
 
 <h3>Uso</h3>
 
 <p>
-  1. Visite Meowisa usando seu navegador da web.
-  2. Explore nossa ampla gama de produtos para gatos.
-  4. Clique em um produto para ver os detalhes e fazer uma compra.
-  4.Preencha as informações necessárias e prossiga com o pagamento.
+1. Visite Meowisa usando seu navegador da web.
+2. Explore nossa ampla gama de produtos para gatos.
+3. Clique em um produto para ver os detalhes e fazer uma compra.
+4.Preencha as informações necessárias e prossiga com o pagamento.
 </p>
 
 <h3>Contribuições</h3>
 
-<p>Aceitamos contribuições para melhorar o Meowisa. Se você deseja contribuir, siga estas diretrizes:
+<p>
+Aceitamos contribuições para melhorar o Meowisa. Se você deseja contribuir, siga estas diretrizes:
 
-  1. Faça um fork do repositório no GitHub.
-  2. Clone o fork em sua máquina local.
-  3. Crie um novo branch e faça suas alterações.
-  4. Teste suas alterações minuciosamente.
-  5. Envie uma solicitação pull, descrevendo as alterações que você fez e por que são valiosas.
- </p>
+1. Faça um fork do repositório no GitHub.
+2. Clone o fork em sua máquina local.
+3. Crie um novo branch e faça suas alterações.
+4. Teste suas alterações minuciosamente.
+5. Envie uma solicitação pull, descrevendo as alterações que você fez e por que são valiosas.
+</p>
