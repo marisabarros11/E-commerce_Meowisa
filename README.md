@@ -29,7 +29,6 @@ A plataforma foi criada para estudos então ainda está em construção e aperfe
 
 <p>
 Aceitamos contribuições para melhorar o Meowisa. Se você deseja contribuir, siga estas diretrizes:
-
 1. Faça um fork do repositório no GitHub.
 2. Clone o fork em sua máquina local.
 3. Crie um novo branch e faça suas alterações.
