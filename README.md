@@ -11,7 +11,7 @@
 
 <h3>Sumário</h3>
 <p>
-  [Recursos](#recursos)
+  [Recursos](-#recursos-)
   <br>  
   - Uso
   <br>
