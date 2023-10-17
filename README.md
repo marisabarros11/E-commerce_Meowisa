@@ -21,11 +21,8 @@
 
 <p>
   1. Visite Meowisa usando seu navegador da web.
-  
   2. Explore nossa ampla gama de produtos para gatos.
-     
   4. Clique em um produto para ver os detalhes e fazer uma compra.
-     
   4.Preencha as informações necessárias e prossiga com o pagamento.
 </p>
 
