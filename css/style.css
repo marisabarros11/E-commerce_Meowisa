@@ -196,7 +196,7 @@ nav {
 
 .pagamento {
     width: 500px;
-    height: 675px;
+    height: 600px;
     background-color: white;
     position: absolute;
     top: 0;
@@ -204,7 +204,7 @@ nav {
     left: 0;
     right: 0;
     margin: auto;
-    padding: 10px 50px;
+    padding: 0px 50px;
     display: flex;
     flex-direction: column;
     -webkit-box-shadow: 0px 0px 32px 6px rgba(0, 0, 0, 0.87);
